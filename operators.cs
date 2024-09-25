@@ -1,18 +1,39 @@
-print("Anonymous Income Comparison Program")
+using System;
 
-print("Person 1")
-hourly_rate_person1 = float(input("Hourly Rate? "))
-hours_per_week_person1 = float(input("Hours worked per week? "))
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Anonymous Income Comparison Program");
 
-print("Person 2")
-hourly_rate_person2 = float(input("Hourly Rate? "))
-hours_per_week_person2 = float(input("Hours worked per week? "))
-annual_salary_person1 = hourly_rate_person1 * hours_per_week_person1 * 52
-annual_salary_person2 = hourly_rate_person2 * hours_per_week_person2 * 52
+        // Person 1
+        Console.WriteLine("Person 1");
+        Console.Write("Hourly Rate? ");
+        float hourlyRatePerson1 = float.Parse(Console.ReadLine());
 
-print(f"Annual salary of Person 1:\n{annual_salary_person1}")
-print(f"Annual salary of Person 2:\n{annual_salary_person2}")
-makes_more = annual_salary_person1 > annual_salary_person2
+        Console.Write("Hours worked per week? ");
+        float hoursPerWeekPerson1 = float.Parse(Console.ReadLine());
 
-print("Does Person 1 make more money than Person 2?")
-print(makes_more)
+        // Person 2
+        Console.WriteLine("Person 2");
+        Console.Write("Hourly Rate? ");
+        float hourlyRatePerson2 = float.Parse(Console.ReadLine());
+
+        Console.Write("Hours worked per week? ");
+        float hoursPerWeekPerson2 = float.Parse(Console.ReadLine());
+
+        // Calculate Annual Salaries
+        float annualSalaryPerson1 = hourlyRatePerson1 * hoursPerWeekPerson1 * 52;
+        float annualSalaryPerson2 = hourlyRatePerson2 * hoursPerWeekPerson2 * 52;
+
+        // Output Annual Salaries
+        Console.WriteLine($"Annual salary of Person 1:\n{annualSalaryPerson1}");
+        Console.WriteLine($"Annual salary of Person 2:\n{annualSalaryPerson2}");
+
+        // Comparison
+        bool makesMore = annualSalaryPerson1 > annualSalaryPerson2;
+
+        Console.WriteLine("Does Person 1 make more money than Person 2?");
+        Console.WriteLine(makesMore);
+    }
+}
