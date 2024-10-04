@@ -1,0 +1,7 @@
+D:\Github - C#\Github C#\Github C#\bin\Debug\Github C#.exe.config
+D:\Github - C#\Github C#\Github C#\bin\Debug\Github C#.exe
+D:\Github - C#\Github C#\Github C#\bin\Debug\Github C#.pdb
+D:\Github - C#\Github C#\Github C#\obj\Debug\Github C#.csproj.AssemblyReference.cache
+D:\Github - C#\Github C#\Github C#\obj\Debug\Github C#.csproj.CoreCompileInputs.cache
+D:\Github - C#\Github C#\Github C#\obj\Debug\Github C#.exe
+D:\Github - C#\Github C#\Github C#\obj\Debug\Github C#.pdb
