@@ -42,5 +42,25 @@ class Program
         {
             Console.WriteLine(ex.Message);
         }
+             MathOperations mathOperations = new MathOperations();
+
+        // Class submission assignment
+        Console.WriteLine("Enter a number:");
+        int userInput = int.Parse(Console.ReadLine());
+
+        mathOperations.DivideByTwo(userInput);
+
+        mathOperations.MultiplyByThree(userInput, out int multipliedResult);
+        Console.WriteLine($"Result of multiplying by 3 (using output parameter): {multipliedResult}");
+
+        mathOperations.Multiply(userInput);
+
+        Console.WriteLine("Enter a multiplier:");
+        int multiplier = int.Parse(Console.ReadLine());
+        mathOperations.Multiply(userInput, multiplier);
+
+
+        int sum = StaticOperations.AddNumbers(5, 10);
+        Console.WriteLine($"Sum of 5 and 10 using static method: {sum}");
     }
 }
