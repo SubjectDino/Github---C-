@@ -62,5 +62,15 @@ class Program
 
         int sum = StaticOperations.AddNumbers(5, 10);
         Console.WriteLine($"Sum of 5 and 10 using static method: {sum}");
+        // Instantiate and initialize an Employee object
+        Employee employee = new Employee()
+        {
+            FirstName = "Sample",
+            LastName = "Student",
+            Id = 1
+        };
+
+        // Call the superclass method SayName()
+        employee.SayName();
     }
 }
