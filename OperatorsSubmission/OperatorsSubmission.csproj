@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B441FA17-C11D-4C50-A78E-3EDC4CE130E2}</ProjectGuid>
+    <ProjectGuid>{AD3DDC7D-B7B1-4CC4-B54A-0890A3ECDC1A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Polymorphism</RootNamespace>
-    <AssemblyName>Polymorphism</AssemblyName>
+    <RootNamespace>OperatorsSubmission</RootNamespace>
+    <AssemblyName>OperatorsSubmission</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
