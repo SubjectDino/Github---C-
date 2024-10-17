@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CAF94D2C-BAEC-4636-9C6B-DEC9D27D0E00}</ProjectGuid>
+    <ProjectGuid>{A9AD69B5-2C92-413A-B3DE-154742C58E9B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MainMethod</RootNamespace>
-    <AssemblyName>MainMethod</AssemblyName>
+    <RootNamespace>MethodSubmission</RootNamespace>
+    <AssemblyName>MethodSubmission</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MathOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
