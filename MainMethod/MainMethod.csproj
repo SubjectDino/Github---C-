@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34724ACF-F415-405C-A596-0F10DF3F0B67}</ProjectGuid>
+    <ProjectGuid>{CAF94D2C-BAEC-4636-9C6B-DEC9D27D0E00}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Parameters</RootNamespace>
-    <AssemblyName>Parameters</AssemblyName>
+    <RootNamespace>MainMethod</RootNamespace>
+    <AssemblyName>MainMethod</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
