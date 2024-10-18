@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace PassingEnums
 {
-    internal class DaysOfWeek
+    public enum DaysOfWeek
     {
+        Sunday,
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday
     }
 }
